@@ -1,46 +1,127 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/html">
 <head>
 
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="style.css"/>
+    <link href="hover.css" rel="stylesheet" media="all">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Corentin Rodrigo</title>
-
+    <script src="particles.js"></script>
 </head>
 
 <body>
-  <div class="container">
+
+<div class="container">
+
 
     <section id="home">
-      <h1>Corentin Rodrigo</h1>
-      <p class="lead">Ingénieur Icam</p>
+        <div id="particles-js"></div>
+        <div id="overlay">
+            <h1>Corentin Rodrigo</h1>
+            <p>Icam Engineer & Master at Polytechnique Montréal</p>
+            <p>Web Developer and Machine Learning Engineer</p>
 
-      <img src="../Icons/linkedin.png" alt="photo linkedin"/>
-      <img src="../Icons/mission.png" alt="photo linkedin"/>
+
+            <div class="contact-logo">
+                <a class="hvr-pop" target="_blank" href="https://github.com/Hackamo"><img
+                        src="ressources/logo-github-white.png"></a>
+                <a class="hvr-pop" target="_blank" href="https://www.linkedin.com/in/corentin-rodrigo-61a181154/"><img
+                        src="ressources/logo-linkedin.svg"></a>
+            </div>
+        </div>
+
+
     </section>
 
-    <section id="presentation">
-        <h1>Outils</h1>
-        <p class="lead">Html</p>
+    <section id="tools">
+        <h1>Tools</h1>
+        <h1 class="lead">Front-End</h1>
+        <div class="dev-tools">
+            <img src="ressources/logo-html.png" alt="htmllogo">
+            <img src="ressources/logo-css.svg">
+            <img src="ressources/logo-javascript.png">
+            <img src="ressources/logo-boostrap.png">
+        </div>
+
+        <h1 class="lead">Back-End</h1>
+        <div class="dev-tools">
+            <img src="ressources/logo-django.png">
+            <img src="ressources/logo-flask.png">
+            <img src="ressources/logo-nodejs.png">
+
+        </div>
+        <h1 class="lead">Machine Learning</h1>
+        <div class="dev-tools">
+            <img src="ressources/logo-scikit-learn.png">
+            <img src="ressources/logo-tensorflow.png">
+            <img src="ressources/logo-keras.png">
+
+        </div>
+        <h1 class="lead">Outils & BDD</h1>
+        <div class="dev-tools">
+            <img src="ressources/logo-sqlite.png">
+            <img src="ressources/logo-git.png">
+            <img src="ressources/logo-vmware.png">
+        </div>
     </section>
 
-    <section id="service">
-        <h1>Expériences</h1>
-        <p class="lead">Progammeur Jeux vidéos</p>
- 
+    <section id="experiences">
 
 
+        <h1>Experiences</h1>
+        <div class="experience-container">
+            <div class="experience-left">
+                <h3>ETUDIANT CHERCHEUR | FLEXGROUP | MAI 2019 – AOUT 2020</h3>
+                <li>Conception et implémentation d'un antivirus pour Android en complète autonomie</li>
+                <li>Méthode de détection grâce au Machine Learning (Tensorflow/Keras)</li>
+                <li>Développement de l'application (Kotlin)</li>
+                <li>Développement du serveur (Python) sur serveur Amazon</li>
+                <div class="exp-img">
+                    <img src="ressources/logo-python.png">
+                    <img src="ressources/logo-tensorflow.png">
+                    <img src="ressources/logo-keras.png">
+                    <img src="ressources/logo-android.png">
+                    <img src="ressources/logo-android-studio.png">
+                    <img src="ressources/logo-scikit-learn.png">
+                    <img src="ressources/logo-flask.png">
+                </div>
+
+            </div>
+
+            <div class="experience-right">
+                <h3>DÉVELOPPEUR WEB | SEPTEMBRE 2017 - DECEMBRE 2017</h3>
+                <li>Création et Développement d'un site marchand (HTML5/CSS3)</li>
+                <li>Création et Gestion d'une BDD connectée au site (PHP/MySQL)</li>
+                <div class="exp-img">
+
+                    <img src="ressources/logo-html-css.png">
+                    <img src="ressources/logo-sqlite.png">
+                </div>
+
+            </div>
+
+            <div class="experience-left">
+                <h3>CRÉATEUR DE JEUX VIDEOS | JANVIER 2018- JUIN 2018 </h3>
+                <li>Création et développement d'un jeu en auto-formation via Unity</li>
+                <li>Création de scènes et réalisation de tests</li>
+                <li>Développement compatibilité Android/Apple</li>
+                <li>Réalisation d'un guide d'utilisateur</li>
+                <div class="exp-img">
+
+                    <img src="ressources/logo-unity.png">
+                </div>
+            </div>
+        </div>
     </section>
 
     <section id="contact">
         <h1>Contact</h1>
-        <p class="lead">à corentin.rodrigo@gmail.com</p>
+        <p class="lead">corentin.rodrigo@2019.icam.fr</p>
     </section>
 
-  </div>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  </body>
+</div>
+<script src="app.js"></script>
+
+</body>
 </html>
